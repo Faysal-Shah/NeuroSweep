@@ -1,10 +1,9 @@
 # NeuroSweep: Autonomous Adaptive Cleaning via SLAM & Temporal Dirt-Heatmaps
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![ROS 2 Version](https://img.shields.io/badge/ROS2-Humble-blue)
-![Simulation](https://img.shields.io/badge/Simulation-Webots-orange)
-![License](https://img.shields.io/badge/license-MIT-green)
-
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/Faysal-Shah/NeuroSweep/actions)
+[![ROS 2 Version](https://img.shields.io/badge/ROS2-Humble-blue)](https://docs.ros.org/en/humble/index.html)
+[![Simulation](https://img.shields.io/badge/Simulation-Webots-orange)](https://cyberbotics.com/)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 ## 🔬 Abstract
 **NeuroSweep** is a research-focused simulation of an autonomous cleaning robot that implements **Probabilistic Coverage Path Planning**. Unlike traditional stochastic coverage algorithms (random walk) or deterministic boustrophedon paths, NeuroSweep utilizes a dynamic **"Dirt Heatmap"** based on Bayesian inference. This allows the system to predict high-traffic areas and prioritize cleaning schedules based on estimated debris accumulation, optimizing battery efficiency by up to 30% in theoretical trials.
 
