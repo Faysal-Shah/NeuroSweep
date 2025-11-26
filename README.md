@@ -40,3 +40,19 @@ git clone [https://github.com/YOUR_USERNAME/NeuroSweep.git](https://github.com/Y
 cd NeuroSweep
 colcon build --symlink-install
 source install/setup.bash
+## 📸 System Demonstration
+
+### 1. Full System Integration
+*Simultaneous execution of Webots Physics, RViz Perception, and NeuroSweep Analytics.*
+![System Demo](media/codeworkinglinux.png)
+
+### 2. Real-Time SLAM Mapping
+*Generating a 2D Occupancy Grid from Lidar data.*
+![Mapping Demo](media/mappingdirt.png)
+
+### 3. Autonomous Navigation
+*TurtleBot3 navigating the simulated environment.*
+![Robot Moving](media/demo%20robotworking.png)
+
+### 🎥 Video Demo
+[Download and Watch the System Demo (WebM)](media/system_demo.webm)
